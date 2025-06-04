@@ -1,3 +1,4 @@
+/* global window */
 import React from "react";
 import "./NoteEaseContainer.css";
 import { useState, useEffect, ChangeEvent } from "react";
