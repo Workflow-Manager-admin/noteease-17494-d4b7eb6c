@@ -8,3 +8,4 @@
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.17.0.2:3000/
 10:42:27 AM [vite] (client) page reload index.html
+10:42:39 AM [vite] changed tsconfig file detected: /home/kavia/workspace/code-generation/noteease-17494-d4b7eb6c/noteease/tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.
