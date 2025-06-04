@@ -21,18 +21,14 @@ export function NoteEaseContainer() {
   /**
    * State: notes, search, selected category, modal for editing/creating, form values, etc.
    */
-  // eslint-disable-next-line no-undef
   const [notes, setNotes] = useState<Note[]>(() => {
     // Load notes from localStorage if present, else empty
-    // eslint-disable-next-line no-undef
     const data = window.localStorage.getItem("noteease_notes");
     return data ? JSON.parse(data) : [];
   });
   const [search, setSearch] = useState<string>("");
-  // eslint-disable-next-line no-undef
   const [categories, setCategories] = useState<string[]>(() => {
     // Load categories from localStorage if present, else default set
-    // eslint-disable-next-line no-undef
     const data = window.localStorage.getItem("noteease_categories");
     return data ? JSON.parse(data) : DEFAULT_CATEGORIES;
   });
